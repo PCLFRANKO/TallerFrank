@@ -14,6 +14,11 @@ header nav.navbar button{
     background-color: white;
 }
 
+main a{
+    text-decoration: none;
+    color: black;
+}
+
 footer{
     background-color: black;    
 } 
@@ -29,4 +34,19 @@ footer .nav-item a:hover{
 
 footer span{
     color: white;
+}
+
+span{
+    font-size: 1.2rem;
+}
+
+.span-bold{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+@media (max-width: 375px) {
+    span {
+        font-size: 1rem; /* Ajusta el tamaño según necesites */
+    }
 }
