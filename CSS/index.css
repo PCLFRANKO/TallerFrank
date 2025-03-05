@@ -19,6 +19,19 @@ main a{
     color: black;
 }
 
+main #Servicios{
+    background-color: black;
+    color: white;
+}
+
+main #Servicios ul{
+    font-size: 1.3rem;
+}
+
+main #Servicios .img-servicios{
+    width: 60%;
+}
+
 footer{
     background-color: black;    
 } 
@@ -48,5 +61,11 @@ span{
 @media (max-width: 375px) {
     span {
         font-size: 1rem; /* Ajusta el tamaño según necesites */
+    }
+}
+
+@media (max-width: 767px) {
+    main #Servicios .img-servicios{
+        width: 100%;
     }
 }
