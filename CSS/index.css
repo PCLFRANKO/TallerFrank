@@ -14,9 +14,21 @@ header nav.navbar button{
     background-color: white;
 }
 
+header ul{
+    font-size: 1.2rem;
+}
+
 main a{
     text-decoration: none;
     color: black;
+}
+
+main #Inicio .span-inicio{
+    font-size: 2.5rem;
+}
+
+main #Inicio .img-inicio{
+    max-width: 320px;
 }
 
 main #Servicios{
@@ -47,6 +59,10 @@ footer .nav-item a:hover{
 
 footer span{
     color: white;
+}
+
+footer ul{
+    font-size: 1.2rem;
 }
 
 span{
